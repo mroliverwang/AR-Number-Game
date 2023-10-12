@@ -78,7 +78,7 @@ public class SpawnManager : MonoBehaviour
 
         yield return new WaitForSeconds(2f);
 
-        //trim clip manually
+        //trim clip manually, since the clip was downloaded online
         GetComponent<AudioSource>().time = 1.7f;
         
         for (int index = 0; index < n; index++)
